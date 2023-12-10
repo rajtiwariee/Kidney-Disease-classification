@@ -677,3 +677,125 @@ x==========x]
 [2023-12-10 17:57:02,288: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2023-12-10 18:20:49,296: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.104:8080]
+[2023-12-10 18:20:49,298: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-10 18:21:09,795: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:21:09] "GET / HTTP/1.1" 200 -]
+[2023-12-10 18:22:10,490: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "x:\kidney_disease_classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "D:\miniconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "D:\miniconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "D:\miniconda3\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2023-12-10 18:22:10,597: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:22:10] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-10 18:23:16,985: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:23:16] "GET / HTTP/1.1" 200 -]
+[2023-12-10 18:23:18,337: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "x:\kidney_disease_classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "D:\miniconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "D:\miniconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "D:\miniconda3\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2023-12-10 18:23:18,343: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:23:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-10 18:23:21,189: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:23:21] "GET / HTTP/1.1" 200 -]
+[2023-12-10 18:23:35,329: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "x:\kidney_disease_classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "D:\miniconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "D:\miniconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "D:\miniconda3\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2023-12-10 18:23:35,333: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:23:35] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-10 18:24:37,551: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:24:37] "GET / HTTP/1.1" 200 -]
+[2023-12-10 18:24:44,152: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\miniconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "x:\kidney_disease_classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("artifacts","training", "model.h5"))
+  File "D:\miniconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "D:\miniconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "D:\miniconda3\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2023-12-10 18:24:44,166: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:24:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-10 18:25:07,035: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.104:8080]
+[2023-12-10 18:25:07,036: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-10 18:25:13,741: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:25:13] "GET / HTTP/1.1" 200 -]
+[2023-12-10 18:25:23,115: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:25:23] "POST /predict HTTP/1.1" 200 -]
+[2023-12-10 18:25:35,033: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:25:35] "POST /predict HTTP/1.1" 200 -]
+[2023-12-10 18:25:37,082: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:25:37] "POST /predict HTTP/1.1" 200 -]
