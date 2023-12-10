@@ -1,0 +1,15 @@
+artifact_uri: file:///X:/Kidney_disease_classification/mlruns/0/3ab460f9528848d8ae90a89a03e4aa09/artifacts
+end_time: 1702204761803
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ab460f9528848d8ae90a89a03e4aa09
+run_name: thundering-toad-9
+run_uuid: 3ab460f9528848d8ae90a89a03e4aa09
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702204689822
+status: 3
+tags: []
+user_id: Raj
