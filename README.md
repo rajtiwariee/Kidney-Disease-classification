@@ -141,7 +141,7 @@ DVC
 	
 ## 3. Create ECR repo to store/save docker image
     - Save the URI: 340293179715.dkr.ecr.eu-north-1.amazonaws.com/kidney
-
+	-made some changes
 	
 ## 4. Create EC2 machine (Ubuntu) 
 
