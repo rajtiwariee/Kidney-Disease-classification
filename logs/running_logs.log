@@ -799,3 +799,68 @@ OSError: No file or directory found at model\model.h5
 [2023-12-10 18:25:23,115: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:25:23] "POST /predict HTTP/1.1" 200 -]
 [2023-12-10 18:25:35,033: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:25:35] "POST /predict HTTP/1.1" 200 -]
 [2023-12-10 18:25:37,082: INFO: _internal: 127.0.0.1 - - [10/Dec/2023 18:25:37] "POST /predict HTTP/1.1" 200 -]
+[2023-12-14 10:41:15,572: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.104:8080]
+[2023-12-14 10:41:15,593: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-14 10:41:21,868: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:41:21] "GET / HTTP/1.1" 200 -]
+[2023-12-14 10:41:47,076: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:41:47] "POST /predict HTTP/1.1" 200 -]
+[2023-12-14 10:42:30,902: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:42:30] "GET / HTTP/1.1" 200 -]
+[2023-12-14 10:42:38,222: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:42:38] "POST /predict HTTP/1.1" 200 -]
+[2023-12-14 10:43:01,546: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.104:8080]
+[2023-12-14 10:43:01,547: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-14 10:43:04,741: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:43:04] "GET / HTTP/1.1" 200 -]
+[2023-12-14 10:43:18,459: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:43:18] "POST /predict HTTP/1.1" 200 -]
+[2023-12-14 10:44:30,613: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:44:30] "POST /predict HTTP/1.1" 200 -]
+[2023-12-14 10:44:32,669: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:44:32] "POST /predict HTTP/1.1" 200 -]
+[2023-12-14 10:55:42,960: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.104:8080]
+[2023-12-14 10:55:42,962: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-14 10:56:11,002: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.104:8080]
+[2023-12-14 10:56:11,006: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-14 10:56:11,025: INFO: _internal:  * Restarting with stat]
+[2023-12-14 10:56:28,770: WARNING: _internal:  * Debugger is active!]
+[2023-12-14 10:56:29,013: INFO: _internal:  * Debugger PIN: 136-519-185]
+[2023-12-14 10:56:29,137: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:56:29] "GET / HTTP/1.1" 200 -]
+[2023-12-14 10:56:29,139: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:56:29] "GET / HTTP/1.1" 200 -]
+[2023-12-14 10:56:29,144: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:56:29] "GET / HTTP/1.1" 200 -]
+[2023-12-14 10:56:37,930: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:56:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-14 10:57:06,305: INFO: _internal:  * Detected change in 'x:\\kidney_disease_classification\\src\\cnnClassifier\\pipeline\\prediction.py', reloading]
+[2023-12-14 10:57:07,056: INFO: _internal:  * Restarting with stat]
+[2023-12-14 10:57:20,626: WARNING: _internal:  * Debugger is active!]
+[2023-12-14 10:57:20,644: INFO: _internal:  * Debugger PIN: 136-519-185]
+[2023-12-14 10:58:09,684: INFO: _internal:  * Detected change in 'X:\\Kidney_disease_classification\\src\\cnnClassifier\\pipeline\\prediction.py', reloading]
+[2023-12-14 10:58:10,420: INFO: _internal:  * Restarting with stat]
+[2023-12-14 10:58:23,587: WARNING: _internal:  * Debugger is active!]
+[2023-12-14 10:58:23,630: INFO: _internal:  * Debugger PIN: 136-519-185]
+[2023-12-14 10:58:30,300: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:58:30] "GET / HTTP/1.1" 200 -]
+[2023-12-14 10:58:37,899: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:58:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-14 10:59:14,940: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.104:8080]
+[2023-12-14 10:59:14,942: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-14 10:59:14,950: INFO: _internal:  * Restarting with stat]
+[2023-12-14 10:59:35,458: WARNING: _internal:  * Debugger is active!]
+[2023-12-14 10:59:35,491: INFO: _internal:  * Debugger PIN: 136-519-185]
+[2023-12-14 10:59:35,601: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:59:35] "GET / HTTP/1.1" 200 -]
+[2023-12-14 10:59:35,612: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 10:59:35] "GET / HTTP/1.1" 200 -]
+[2023-12-14 11:00:13,933: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 11:00:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-14 11:00:31,989: INFO: _internal:  * Detected change in 'x:\\kidney_disease_classification\\src\\cnnClassifier\\pipeline\\prediction.py', reloading]
+[2023-12-14 11:00:33,413: INFO: _internal:  * Restarting with stat]
+[2023-12-14 11:00:49,400: WARNING: _internal:  * Debugger is active!]
+[2023-12-14 11:00:49,428: INFO: _internal:  * Debugger PIN: 136-519-185]
+[2023-12-14 11:00:49,511: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 11:00:49] "GET / HTTP/1.1" 200 -]
+[2023-12-14 11:00:49,518: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 11:00:49] "GET / HTTP/1.1" 200 -]
+[2023-12-14 11:00:57,240: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 11:00:57] "POST /predict HTTP/1.1" 200 -]
+[2023-12-14 11:01:11,564: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 11:01:11] "POST /predict HTTP/1.1" 200 -]
+[2023-12-14 11:01:29,933: INFO: _internal: 127.0.0.1 - - [14/Dec/2023 11:01:29] "POST /predict HTTP/1.1" 200 -]
